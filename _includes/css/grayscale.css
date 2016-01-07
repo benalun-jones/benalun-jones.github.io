@@ -262,7 +262,8 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+ /*   background-color: black;*/
+   /* url(/img/downloads-bg.jpg) no-repeat center center scroll;*/
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -371,3 +372,10 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.skillsItem {
+    font-size: 18px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
