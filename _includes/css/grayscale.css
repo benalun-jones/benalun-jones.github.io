@@ -144,7 +144,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(https://wallpaperscraft.com/image/laptop_room_on_the_desk_keyboard_mouse_apple_window_interior_73963_1920x1080.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -172,7 +172,8 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 75px;
+        padding-top: 100px;
     }
 
     .intro .intro-body .intro-text {
